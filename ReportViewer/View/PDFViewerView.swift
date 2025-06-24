@@ -12,7 +12,6 @@ struct PDFViewerView: View {
     @EnvironmentObject var pdfVM: PDFViewModel
     var body: some View {
         PDFKitView(url: pdfVM.url)
-            .navigationTitle("PDF Viewer")
     }
 }
 
